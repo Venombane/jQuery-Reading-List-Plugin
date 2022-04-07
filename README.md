@@ -1,0 +1,2 @@
+# jQuery-Reading-List-Plugin
+This reading list plugin will be able to take in the name, photo and what chapter you’re on for a book or manga and take this information and display it on a nicely designed page, where you can select a few different ways on how the information is displayed. There will be optional modifiers that affect the design, like text color, changing the shape of the border, border size, inside border color.
