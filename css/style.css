@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    background-color: gray;
+}
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    background-color: rgb(185, 185, 185);
+}
+  
+  /* Clear floats after the columns */
+  .reading_list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid;
+}
