@@ -6,18 +6,16 @@ body {
 .book {
     margin: auto;
     width: 20%;
-    border: 5px solid;
+    border: 5px solid #67007c;
     background-color: blueviolet;
     padding: 10px;
     text-align: center;
-    border-color: #67007c;
 }
 
 img {
     width: 50%;
     text-align: center;
-    border: 10px solid;
-    border-color: #67007c;
+    border: 10px solid #67007c;
 }
 
 h1 {
@@ -26,8 +24,7 @@ h1 {
 
 #div_text {
     background-color: #ee98ff;
-    border: 5px solid ;
-    border-color: #67007c;
+    border: 5px solid #67007c;
 }
 
 ul {

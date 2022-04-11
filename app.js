@@ -1,4 +1,8 @@
 $("#reading_list").readingList({
     color: "#67007c",
-    fontFamily: "Georgia"
+    fontFamily: "Georgia",
+    imgBorder: "5px solid #000000",
+    imgWidth: "75%",
+    outerBorder: "5px solid #000000",
+    textBorder: "5px solid #000000"
 });
