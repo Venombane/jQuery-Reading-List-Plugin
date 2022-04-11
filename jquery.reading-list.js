@@ -4,8 +4,7 @@
         var settings = $.extend({
             imageBorder: "5px solid #ffffff",
             borderRadius: "5px",
-            imageWidth: "500px",
-            imageHeight: "400px"
+            imageWidth: "50%"
         }, options)
 
         /**
@@ -22,7 +21,6 @@
                 $image = $('<img>');
                 $image.css({
                     "width": settings.imageWidth,
-                    "height": settings.imageHeight,
                     "border": settings.imageBorder,
                     "border-radius": settings.borderRadius
                 });
