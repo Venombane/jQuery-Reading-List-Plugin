@@ -2,9 +2,8 @@
     $.fn.readingList = function(options) {
 
         var settings = $.extend({
-            imageBorder: "5px solid #ffffff",
-            borderRadius: "5px",
-            imageWidth: "50%"
+            color: "#000000",
+            fontFamily: "sans-serif"
         }, options)
 
         /**
@@ -14,17 +13,13 @@
             /**
              * Declaring new element(s) variables
              */
-            var $image;
-            setImageProperties();
-
-            function setImageProperties() {
-                $image = $('<img>');
-                $image.css({
-                    "width": settings.imageWidth,
-                    "border": settings.imageBorder,
-                    "border-radius": settings.borderRadius
-                });
-            }
+            
+            
+            $(this).css("color", settings.color);
+            $(this).css("font-family", settings.fontFamily);
+            
+            
+            
         })
     }
 }(jQuery))
