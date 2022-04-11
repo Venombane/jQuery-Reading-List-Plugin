@@ -7,16 +7,15 @@
         }, options)
 
         /**
-         * Interating through each image Gallery
+         * Interating through each reading list
          */
         return this.each(function() {
-            /**
-             * Declaring new element(s) variables
-             */
+            
             
             
             $(this).css("color", settings.color);
             $(this).css("font-family", settings.fontFamily);
+            // Add border color/border size/image size/background color x2
             
             
             
